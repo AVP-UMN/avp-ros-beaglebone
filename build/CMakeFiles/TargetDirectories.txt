@@ -1,0 +1,16 @@
+/home/avp/avp-ros/build/CMakeFiles/clean_test_results.dir
+/home/avp/avp-ros/build/CMakeFiles/doxygen.dir
+/home/avp/avp-ros/build/gtest/CMakeFiles/gtest.dir
+/home/avp/avp-ros/build/gtest/CMakeFiles/gtest_main.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/ps4Controllee_gencpp.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/ps4Controllee_generate_messages.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/ps4Controllee_generate_messages_cpp.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/ps4Controllee_generate_messages_lisp.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/ps4Controllee_generate_messages_py.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/ps4Controllee_genlisp.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/ps4Controllee_genpy.dir
+/home/avp/avp-ros/build/CMakeFiles/run_tests.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/std_msgs_generate_messages_cpp.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/std_msgs_generate_messages_lisp.dir
+/home/avp/avp-ros/build/ps4Controllee/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/avp/avp-ros/build/CMakeFiles/tests.dir

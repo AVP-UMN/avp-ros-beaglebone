@@ -1,0 +1,54 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/avp/avp-ros/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec312139363/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec312139363.dir/build.make CMakeFiles/cmTryCompileExec312139363.dir/build
+make[1]: Entering directory `/home/avp/avp-ros/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/avp/avp-ros/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec312139363.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec312139363.dir/CheckSymbolExists.c.o   -c /home/avp/avp-ros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec312139363
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec312139363.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec312139363.dir/CheckSymbolExists.c.o  -o cmTryCompileExec312139363 -rdynamic 
+CMakeFiles/cmTryCompileExec312139363.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xe): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/avp/avp-ros/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec312139363] Error 1
+make: *** [cmTryCompileExec312139363/fast] Error 2
+
+File /home/avp/avp-ros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/avp/avp-ros/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3651749292/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3651749292.dir/build.make CMakeFiles/cmTryCompileExec3651749292.dir/build
+make[1]: Entering directory `/home/avp/avp-ros/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/avp/avp-ros/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3651749292.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3651749292.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3651749292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3651749292.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3651749292.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3651749292 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/avp/avp-ros/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3651749292] Error 1
+make: *** [cmTryCompileExec3651749292/fast] Error 2
+
+
